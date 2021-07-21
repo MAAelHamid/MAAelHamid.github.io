@@ -1,7 +1,7 @@
 ---
 
 title: KIOPTRIX LEVEL 1.1 (#2)
-date: 2021-07-19 023:42:00 +0200
+date: 2021-07-19 23:42:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, easy, sqli, os_command_injection, kioptrix] 
 
@@ -19,7 +19,7 @@ We first need to get the target IP. in my case network sittings was bridged so i
 
 to catch all ip in my network => kioprix ip is `192.168.1.6`
 
-you can use nmap to catch your ip using `-sn` flag
+you can use nmap to catch your ip using `-sP` flag
 
 ## nmap 
 
@@ -267,3 +267,4 @@ sh-3.00# whoami
 root
 ```
 
+- [x]  Root Access

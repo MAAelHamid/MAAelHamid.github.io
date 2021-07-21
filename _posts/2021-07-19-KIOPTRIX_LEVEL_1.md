@@ -21,7 +21,7 @@ We first need to get the target IP. in my case network sittings was bridged so i
 
 to catch all ip in my network => kioprix ip is `192.168.1.7`
 
-you can use nmap to catch your ip using `-sn` flag
+you can use nmap to catch your ip using `-sP` flag
 
 ## nmap 
 
