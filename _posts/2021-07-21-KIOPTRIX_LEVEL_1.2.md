@@ -4,7 +4,6 @@ date: 2021-07-21 11:13:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, easy, php, phpmyadmin, ssh, ht, sudoers, kioptrix] 
 
-
 ---
 
 # Introduction
@@ -13,13 +12,13 @@ This Kioptrix VM Image are easy challenges. The object of the game is to acquire
 
 
 
-# Scanning & Gaining Access
+# Scanning
 
 We first need to get the target IP. 
 
 `nmap -sP 192.168.1.0/24`
 
-my ip is `192.168.1.7`
+Target IP  is `192.168.1.7`
 
 ## nmap 
 
@@ -80,6 +79,10 @@ Shellcodes: No Results
 lets try this 
 
 ​	`LotusCMS 3.0 - 'eval()' Remote Command Execution (Metasploit)`
+
+
+
+ # Gaining Access
 
 fire msfconsole
 
