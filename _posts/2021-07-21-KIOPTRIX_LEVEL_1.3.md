@@ -1,8 +1,8 @@
 ---
 title: KIOPTRIX LEVEL 1.3 (#4)
-date: 2021-07-21 05:35:00 +0200
+date: 2021-07-22 05:35:00 +0200
 categories: [VlunHub]
-tags: [vulnhub, easy, php, SQLI, ssh, dirty cow, firefart, kioptrix] 
+tags: [vulnhub, easy, php, sqli, ssh, dirty cow, firefart, kioptrix] 
 
 ---
 
