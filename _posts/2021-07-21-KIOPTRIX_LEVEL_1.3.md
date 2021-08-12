@@ -89,7 +89,7 @@ Findings : **Apache web server** is running on port 80, **OpenSSH** on port 22
 
 
 
-![image-20210722055403809](/assets/2021-07-21-KIOPTRIX_LEVEL_1.2/image-20210722055403809.png)
+![image-20210722055403809](/assets/2021-07-21-KIOPTRIX_LEVEL_1.3/image-20210722055403809.png)
 
 ## Scanning web server with dirb
 
@@ -261,7 +261,7 @@ username  	john
 password	1234
 ```
 
-![image-20210722055734383](/assets/2021-07-21-KIOPTRIX_LEVEL_1.2/image-20210722055734383.png)
+![image-20210722055734383](/assets/2021-07-21-KIOPTRIX_LEVEL_1.3/image-20210722055734383.png)
 
 
 
@@ -270,7 +270,7 @@ The above credits does not work on Member Login page
 
 **SQL Vulnerability :** By fuzzing inputs of Member Login page, we find that there is an SQL vulnerability on login password field, payload "Name:`john` and password:`' or 1='1 --+` user logged in and auth john/MyNameIsJohn is showed.
 
-![image-20210722055949932](/assets/2021-07-21-KIOPTRIX_LEVEL_1.2/image-20210722055949932.png)
+![image-20210722055949932](/assets/2021-07-21-KIOPTRIX_LEVEL_1.3/image-20210722055949932.png)
 
 
 
