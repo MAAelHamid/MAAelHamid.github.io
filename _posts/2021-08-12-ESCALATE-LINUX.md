@@ -2,7 +2,7 @@
 title: ESCALATE LINUX
 date: 2021-08-12 05:35:00 +0200
 categories: [VlunHub]
-tags: [vulnhub, ESCALATE_LINUX, privilege_escalation] 
+tags: [vulnhub, ESCALATE_LINUX, privilege_escalation, SUID, PATH_var, SUDO, crontab, vi_sudo] 
 
 ---
 
@@ -134,7 +134,7 @@ default page ...
 
 
 
-check directory
+**Check directory**
 
 ```console
 ➜  ~ gobuster dir -u http://esclinux.vuln -w ~/SecLists/Discovery/Web-Content/Common-PHP-Filenames.txt
@@ -306,7 +306,7 @@ sudo –l
 sudo su
 ```
 
-credit : **user1:12345**
+Credentials : `user1:12345`
 
 ![image-20210812184549446](/assets/2021-08-12-ESCALATE-LINUX/image-20210812184549446.png)
 
@@ -369,3 +369,4 @@ ids
 
 - [x] Root User Account Access
 
+c
