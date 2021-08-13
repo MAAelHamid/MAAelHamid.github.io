@@ -248,8 +248,6 @@ as we notice that running `/home/user5/script`
 
 trigger `ls` command
 
-![image-20210812180938734](/home/maaelhamid/.config/Typora/typora-user-images/image-20210812180938734.png)
-
 let's abuse this  *remember this exploit run because sticky bit  -run as root-*
 
 ```console
@@ -368,5 +366,3 @@ ids
 ![image-20210812193023386](/assets/2021-08-12-ESCALATE-LINUX/image-20210812193023386.png)
 
 - [x] Root User Account Access
-
-c
