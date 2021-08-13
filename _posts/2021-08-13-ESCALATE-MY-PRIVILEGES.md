@@ -1,5 +1,5 @@
 ---
-title: ESCALATE MY PRIVILEGES
+title: ESCALATE MY PRIVILEGES - Vulnhub Walkthrough
 date: 2021-08-13 05:35:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, ESCALATE_MY_PRIVILEGES, privilege_escalation] 
@@ -26,7 +26,7 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 2.69 seconds
 
 
 
-edit `/etc/hosts` file => (local DNS)
+edit `/etc/hosts` file (local DNS)
 
 ```console
 # Vulnhub

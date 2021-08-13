@@ -1,5 +1,5 @@
 ---
-title: KIOPTRIX LEVEL 1.2 (#3)
+title: KIOPTRIX LEVEL 1.2 (#3) - Vulnhub Walkthrough
 date: 2021-07-21 11:13:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, easy, php, phpmyadmin, ssh, ht, sudoers, kioptrix] 

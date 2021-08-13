@@ -1,6 +1,6 @@
 ---
 
-title: KIOPTRIX LEVEL 1.1 (#2)
+title: KIOPTRIX LEVEL 1.1 (#2) - Vulnhub Walkthrough
 date: 2021-07-19 23:42:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, easy, sqli, os_command_injection, kioptrix] 

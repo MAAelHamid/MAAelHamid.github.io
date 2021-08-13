@@ -1,6 +1,6 @@
 ---
 
-title: KIOPTRIX LEVEL 1 (#1)
+title: KIOPTRIX LEVEL 1 (#1) - Vulnhub Walkthrough
 date: 2021-07-19 09:46:00 +0200
 categories: [VlunHub]
 tags: [vulnhub, kioptrix, easy, smb]     
