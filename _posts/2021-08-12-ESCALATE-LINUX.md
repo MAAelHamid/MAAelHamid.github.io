@@ -6,6 +6,12 @@ tags: [vulnhub, ESCALATE_LINUX, privilege_escalation, SUID, PATH_var, SUDO, cron
 
 ---
 
+# Description
+
+Escalate_Linux - A intentionally developed Linux vulnerable virtual machine.The main focus of this machine is to learn Linux Post Exploitation (Privilege Escalation) Techniques.
+
+
+
 # INIT
 
 identify target IP 
