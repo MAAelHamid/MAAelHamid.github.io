@@ -32,18 +32,15 @@ if we change `302 Found` to`200 OK` may be able to access dashboard without logi
 
 - Proxy -> Options -> Intercept Server Responses -> Check box (Intercept responses…)
 
-![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite
-.assets/word-image-266.png)
+![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite.assets/word-image-266.png)
 
 - edit “Match and Replace” section
 
-  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite
-.assets/word-image-267.png)
+  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite.assets/word-image-267.png)
 
 - Add
 
-  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite
-.assets/word-image-268.png)
+  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite.assets/word-image-268.png)
 
 - Fill in the blanks
   - Type: Response header
@@ -52,15 +49,13 @@ if we change `302 Found` to`200 OK` may be able to access dashboard without logi
 
   - Replace: 200 OK
 
-  - Comment: VK9 redirection bypass
+  - Comment: 30[12] Found bypass
 
   - Check “Regex match”
 
-    ![image-20210817143003254](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite
-.assets/image-20210817143003254.png)
+    ![image-20210817143003254](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite.assets/image-20210817143003254.png)
 
 - Click OK, enable the setting by activating the checkbox
 
-  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite
-.assets/word-image-270.png)
+  ![img](/assets/2021-08-17-Bypass-30X-redirect-with-BurpSuite.assets/word-image-270.png)
 
